@@ -3,7 +3,7 @@ particlesJS.load('particles-js', 'resources/particlesjs-config.json', function (
 
 // Typed effect
 var typed = new Typed('#typed1', {
-    strings: ["Website is being installed"],
+    strings: ["Espace web en cours d'installation"],
     typeSpeed: 100,
     showCursor: false
 });
