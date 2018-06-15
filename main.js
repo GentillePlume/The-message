@@ -21,8 +21,14 @@ $(document).ready(points());
 $(window).resize(points());
 
 function points() {
+    var string = "Espace web en cours d'installation";
+    var charCount = Array.from(string).length;
+    
+    var wait = charCount * 150;
+    console.log("wait time : " + wait);
+
     setTimeout(function () {
         $("#typed2")[0].style.visibility = "visible";
-    }, 4500);
+    }, wait);
 
 }
