@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Megrim');
+@font-face {
+    font-family: PoiretOne;
+    src: url(resources/fonts/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Megrim;
+    src: url(resources/fonts/Megrim.ttf);
+}
+
+/*############################################################*/
 
 * {
     margin: 0;
@@ -32,7 +42,6 @@ body {
     height: 100vh;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 #typed1,
 #typed2 {
     font-size: 5vw;
