@@ -3,7 +3,7 @@ particlesJS.load('particles-js', 'resources/particlesjs-config.json', function (
 
 // Typed effect
 var typed = new Typed('#typed1', {
-    strings: ["Espace web en cours d'installation"],
+    strings: ["Espace web en cours de construction"],
     typeSpeed: 100,
     showCursor: false
 });
@@ -21,7 +21,7 @@ $(document).ready(points());
 $(window).resize(points());
 
 function points() {
-    var string = "Espace web en cours d'installation";
+    var string = "Espace web en cours de construction";
     var charCount = Array.from(string).length;
     
     var wait = charCount * 150;
