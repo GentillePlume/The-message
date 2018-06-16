@@ -77,3 +77,7 @@ body {
     width: 5%;
     height: 100%;
 }
+svg {
+    animation-name: jackInTheBox;
+    animation-delay: 5s;
+}
