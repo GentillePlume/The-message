@@ -102,3 +102,18 @@ footer > p {
     
     margin: 5px;
 }
+
+@media only screen and (max-width: 900px) {
+    #typed1 {
+        width: 100vw;
+        
+        padding: 0 2.5vw;
+        
+        font-size: 10vw;
+        
+        text-align: center;
+    }
+    #container > div:last-child{
+        display: none;
+    }
+}
