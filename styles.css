@@ -1,6 +1,9 @@
 @font-face {
     font-family: PoiretOne;
-    src: url(resources/fonts/PoiretOne-Regular.ttf);
+    src: url(resources/fonts/PoiretOne-Regular.ttf) format('TrueType'),
+    url(resources/fonts/PoiretOne-Regular.woff) format('woff'),
+    url(resources/fonts/PoiretOne-Regular.eot) format('eot'),
+    url(resources/fonts/PoiretOne-Regular.svg) format('svg');
 }
 
 @font-face {
