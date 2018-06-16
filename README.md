@@ -1,6 +1,8 @@
 # The message
 A minimalist web page with a simple message
 
+*Demo link coming soon*
+
 # Content
 
 * Animated background
