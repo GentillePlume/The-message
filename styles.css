@@ -1,9 +1,9 @@
 @font-face {
     font-family: PoiretOne;
-    src: url('resources/fonts/PoiretOne-Regular.svg') format('svg'),
-    /*url('resources/fonts/PoiretOne-Regular.woff') format('woff'),
+    src: url('resources/fonts/PoiretOne-Regular.ttf') format('truetype'),
+    url('resources/fonts/PoiretOne-Regular.woff') format('woff'),
     url('resources/fonts/PoiretOne-Regular.eot#') format('eot'),
-    url('resources/fonts/PoiretOne-Regular.svg') format('svg');*/
+    url('resources/fonts/PoiretOne-Regular.svg') format('svg');
 }
 
 @font-face {
@@ -53,7 +53,7 @@ body {
 #typed1,
 #typed2 {
     font-size: 5vw;
-    font-family: 'Poiret One';
+    font-family: PoiretOne;
 }
 
 #typed1 {
