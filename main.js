@@ -1,10 +1,17 @@
+var typeSpeed = 100;
+
+//Detect if the user is using a mobile
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ var typeSpeed = 25;
+}
+
 /* particles loader */
 particlesJS.load('particles-js', 'resources/particlesjs-config.json', function () {});
 
 // Typed effect
 var typed = new Typed('#typed1', {
     strings: ["Espace web en cours de construction"],
-    typeSpeed: 100,
+    typeSpeed: typeSpeed,
     showCursor: false
 });
 
