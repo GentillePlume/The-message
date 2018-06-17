@@ -14,7 +14,7 @@ document.getElementById('credit').innerHTML = typeSpeed;
 // Typed effect
 var typed = new Typed('#typed1', {
     strings: ["Espace web en cours de construction"],
-    typeSpeed: typeSpeed,
+    typeSpeed: 1,
     showCursor: false
 });
 
