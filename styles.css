@@ -13,7 +13,8 @@
 
 /*############################################################*/
 
-html, body{
+html,
+body {
     overflow: hidden;
 }
 
@@ -99,37 +100,30 @@ svg {
     animation-delay: 5s;
 }
 
-footer {
-    display: flex;
-    position: absolute;
+#credit {
+    display: inline-block;
+    position: fixed;
 
     bottom: 0;
+    left: 0;
 
-    width: 100vw;
-    height: auto;
-
-    z-index: 100;
-}
-
-
-footer > p {
     font-family: 'Megrim', cursive;
     font-size: 15px;
-    
+
     margin: 5px;
 }
 
 @media only screen and (max-width: 900px) {
     #typed1 {
         width: 100vw;
-        
+
         padding: 0 2.5vw;
-        
+
         font-size: 10vw;
-        
+
         text-align: center;
     }
-    #container > div:last-child{
+    #container > div:last-child {
         display: none;
     }
 }
