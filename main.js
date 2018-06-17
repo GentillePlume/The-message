@@ -9,6 +9,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     alert("MOBILE BROWSER DETECTED");
 }
 
+document.getElementById('credit').innerHTML = typeSpeed;
+
 // Typed effect
 var typed = new Typed('#typed1', {
     strings: ["Espace web en cours de construction"],
