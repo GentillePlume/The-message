@@ -1,5 +1,3 @@
-var typeSpeed = 100;
-
 //Detect if the user is using a mobile
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     var typeSpeed = 1;
@@ -8,12 +6,10 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     particlesJS.load('particles-js', 'resources/particlesjs-config.json', function () {});
 }
 
-document.getElementById('testinfo').innerHTML = typeSpeed;
-
 // Typed effect
 var typed = new Typed('#typed1', {
     strings: ["Espace web en cours de construction"],
-    typeSpeed: 1,
+    typeSpeed: 100,
     showCursor: false
 });
 
@@ -26,18 +22,25 @@ var typed = new Typed('#typed2', {
     loop: true
 });
 
-$(document).ready(points());
-$(window).resize(points());
+function h1Check() {
+    var h1String = "Espace web en cours de construction";
 
-function points() {
-    var string = "Espace web en cours de construction";
-    var charCount = Array.from(string).length;
+    if (document.getElementById("typed1").innerHTML.length == h1String.length) {
 
-    var wait = charCount * 150;
-    console.log("wait time : " + wait);
-
-    setTimeout(function () {
         $("#typed2")[0].style.visibility = "visible";
-    }, wait);
+        $("svg")[0].style.animationName = "jackInTheBox";
+        $("svg")[0].style.visibility = "visible";
 
+    } else if (document.getElementById("typed1").innerHTML.length < h1String.length) {
+
+        setTimeout(function () {
+            h1Check();
+        }, 1000);
+
+    } else {
+
+        console.log("FATAL ERROR h1Check FUNCTION SYSTEM ERROR BURN");
+    }
 }
+
+h1Check()
