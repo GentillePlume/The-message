@@ -96,8 +96,7 @@ body {
 }
 
 svg {
-    animation-name: jackInTheBox;
-    animation-delay: 5s;
+    visibility: hidden;
 }
 
 #credit {
@@ -108,7 +107,7 @@ svg {
     left: 0;
 
     font-family: 'Megrim', cursive;
-    font-size: 15px;
+    font-size: 1.5vw;
 
     margin: 5px;
 }
@@ -135,8 +134,13 @@ svg {
         font-size: 10vw;
 
         text-align: center;
+        
     }
     #container > div:last-child {
         display: none;
     }
+    
+    #credit {
+    font-size: 3vw;
+}
 }
