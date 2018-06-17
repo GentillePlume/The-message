@@ -113,6 +113,19 @@ svg {
     margin: 5px;
 }
 
+#testinfo {
+    display: inline-block;
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+
+    font-family: 'Megrim', cursive;
+    font-size: 15px;
+
+    margin: 5px;
+}
+
 @media only screen and (max-width: 900px) {
     #typed1 {
         width: 100vw;
