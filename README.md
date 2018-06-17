@@ -1,14 +1,7 @@
 # The message
 A minimalist web page with a simple message
 
-*Demo link coming soon*
-
-# Content
-
-* Animated background
-* Animated loader
-* Responsive
-* Animated text content when page is loading
+[demo](http://projets.melvin-lemoine.me/The-message/)
 
 # Preview
-![preview](https://i.imgur.com/wuWePTC.png)
+![preview](https://i.imgur.com/G3o0eAU.png)
