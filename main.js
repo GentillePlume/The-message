@@ -5,7 +5,7 @@ var typeSpeed = 100;
 
 //Detect if the user is using a mobile
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- var typeSpeed = 25;
+ var typeSpeed = 1;
     alert("MOBILE BROWSER DETECTED");
 }
 
