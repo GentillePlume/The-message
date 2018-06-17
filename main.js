@@ -1,11 +1,11 @@
-//Particles loader
-particlesJS.load('particles-js', 'resources/particlesjs-config.json', function () {});
-
 var typeSpeed = 100;
 
 //Detect if the user is using a mobile
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- var typeSpeed = 1;
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    var typeSpeed = 1;
+} else {
+    //Particles loader
+    particlesJS.load('particles-js', 'resources/particlesjs-config.json', function () {});
 }
 
 document.getElementById('testinfo').innerHTML = typeSpeed;
@@ -32,7 +32,7 @@ $(window).resize(points());
 function points() {
     var string = "Espace web en cours de construction";
     var charCount = Array.from(string).length;
-    
+
     var wait = charCount * 150;
     console.log("wait time : " + wait);
 
