@@ -28,7 +28,7 @@ function h1Check() {
     if (document.getElementById("typed1").innerHTML.length == h1String.length) {
 
         $("#typed2")[0].style.visibility = "visible";
-        $("svg")[0].style.animationName = "jackInTheBox";
+        $("svg")[0].style.animationName = "flash";
         $("svg")[0].style.visibility = "visible";
 
     } else if (document.getElementById("typed1").innerHTML.length < h1String.length) {
